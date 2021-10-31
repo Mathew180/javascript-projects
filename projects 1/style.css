@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    flex-direction: column;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    background-color: bisque;
+ 
+}
+
+button{
+    padding: 15px 48px;
+    cursor: pointer;
+    font-size:32px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    color: aliceblue;
+}
