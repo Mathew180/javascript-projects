@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.cont{
+    position: relative;
+    width: 900px;
+    height: 400px;
+    background-color: darkslateblue;
+    margin:auto;
+    flex-wrap: nowrap; display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont p{
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.cont button{
+    position: absolute;
+    top: 35px;
+
+}
